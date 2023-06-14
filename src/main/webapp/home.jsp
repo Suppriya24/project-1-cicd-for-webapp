@@ -85,7 +85,7 @@ section {
   <section id="menu">
     <h2>Our Menu</h2>
     <div class="menu-item">
-      <img src="pizza.jpg" alt="Pizza">
+      <img src="pizza1.jpg" alt="Pizza">
       <h3>Pizza</h3>
       <p>Delicious and cheesy pizza with a variety of toppings.</p>
     </div>
