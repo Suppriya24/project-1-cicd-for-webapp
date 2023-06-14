@@ -63,8 +63,20 @@
       <input type="password" id="password" name="password" required>
     </div>
     <div>
-      <input type="submit" value="Login">
+
+      <input type="submit" value="Login" onclick="navigateToPage(event)">
     </div>
   </form>
+ <script>
+    function navigateToPage(event) {
+      event.preventDefault(); // Prevents the form from submitting by default
+      
+      // Perform any validation or other actions here if needed
+      
+      // Redirect to the desired page or trigger an action
+      // For example, redirecting to home.jsp:
+      window.location.href = "home.jsp";
+    }
+  </script>
 </body>
 </html>
