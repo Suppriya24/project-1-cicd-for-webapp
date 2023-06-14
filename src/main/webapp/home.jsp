@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hotel Homepage</title>
+  <title>Food App</title>
  <style>
 /* styles.css */
 
@@ -39,100 +39,82 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Banner */
-#banner {
-  background-image: url("banner.jpg");
-  background-size: cover;
-  color: #fff;
-  padding: 100px;
-  text-align: center;
-}
-
 /* Sections */
 section {
   margin: 50px 0;
   padding: 20px;
 }
 
-#about, #rooms, #amenities, #contact {
+#home {
   background-color: #f2f2f2;
+  text-align: center;
 }
 
-/* Room Section */
-.room {
+#menu {
+  background-color: #fff;
+}
+
+.menu-item {
   display: inline-block;
   width: 300px;
   margin: 10px;
   padding: 10px;
   border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
+  border
 
 </style>
 </head>
 <body>
   <header>
+    <h1>Food App</h1>
     <nav>
       <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#rooms">Rooms</a></li>
-        <li><a href="#amenities">Amenities</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="banner">
-    <h1>Welcome to Our Hotel</h1>
-    <p>Experience luxury and comfort like never before</p>
+  <section id="home">
+    <h2>Welcome to Food App!</h2>
+    <p>Order delicious food right to your doorstep.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <img src="pizza.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <p>Delicious and cheesy pizza with a variety of toppings.</p>
+    </div>
+    <div class="menu-item">
+      <img src="burger.jpg" alt="Burger">
+      <h3>Burger</h3>
+      <p>Juicy and flavorful burgers with a selection of sauces and sides.</p>
+    </div>
+    <div class="menu-item">
+      <img src="sushi.jpg" alt="Sushi">
+      <h3>Sushi</h3>
+      <p>Fresh and delectable sushi rolls made with the finest ingredients.</p>
+    </div>
   </section>
 
   <section id="about">
     <h2>About Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend tortor non nunc molestie, ac blandit sapien ultrices.</p>
-  </section>
-
-  <section id="rooms">
-    <h2>Our Rooms</h2>
-    <div class="room">
-      <img src="room1.jpg" alt="Room 1">
-      <h3>Deluxe Room</h3>
-      <p>Starting from $200 per night</p>
-    </div>
-    <div class="room">
-      <img src="room2.jpg" alt="Room 2">
-      <h3>Executive Suite</h3>
-      <p>Starting from $300 per night</p>
-    </div>
-  </section>
-
-  <section id="amenities">
-    <h2>Amenities</h2>
-    <ul>
-      <li>Swimming pool</li>
-      <li>Spa and wellness center</li>
-      <li>Restaurant and bar</li>
-      <li>24-hour room service</li>
-    </ul>
+    <p>Food App is dedicated to providing high-quality food delivery services with a wide range of delicious options to choose from.</p>
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>For reservations or inquiries, please contact us:</p>
+    <p>For any inquiries or support, please contact us:</p>
     <p>Phone: 123-456-7890</p>
-    <p>Email: info@examplehotel.com</p>
+    <p>Email: info@foodapp.com</p>
   </section>
 
   <footer>
-    <p>&copy; 2023 Example Hotel. All rights reserved.</p>
+    <p>&copy; 2023 Food App. All rights reserved.</p>
   </footer>
 </body>
 </html>
