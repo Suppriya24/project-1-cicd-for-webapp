@@ -85,7 +85,7 @@ section {
   <section id="menu">
     <h2>Our Menu</h2>
     <div class="menu-item">
-      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Ffood-pizza&psig=AOvVaw2q7aXot8zile8IYe_eidLX&ust=1686840566432000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMiqjICBw_8CFQAAAAAdAAAAABAE" alt="Pizza">
+      <img src="https://www.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_7572612.htm#query=food%20pizza&position=0&from_view=keyword&track=ais" alt="Pizza">
       <h3>Pizza</h3>
       <p>Delicious and cheesy pizza with a variety of toppings.</p>
     </div>
