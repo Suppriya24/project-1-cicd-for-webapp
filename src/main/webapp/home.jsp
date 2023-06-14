@@ -100,19 +100,6 @@ section {
       <p>Fresh and delectable sushi rolls made with the finest ingredients.</p>
     </div>
   </section>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Food App is dedicated to providing high-quality food delivery services with a wide range of delicious options to choose from.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>For any inquiries or support, please contact us:</p>
-    <p>Phone: 123-456-7890</p>
-    <p>Email: info@foodapp.com</p>
-  </section>
-
   <footer>
     <p>&copy; 2023 Food App. All rights reserved.</p>
   </footer>
