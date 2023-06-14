@@ -8,7 +8,6 @@
       background-color: #f2f2f2;
       padding: 20px;
     }
-<a href="home.jsp"> Login </a>
     h2 {
       text-align: center;
     }
