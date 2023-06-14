@@ -2,7 +2,81 @@
 <html>
 <head>
   <title>Hotel Homepage</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+ <style>
+/* styles.css */
+
+/* Body and Typography */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Banner */
+#banner {
+  background-image: url("banner.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+/* Sections */
+section {
+  margin: 50px 0;
+  padding: 20px;
+}
+
+#about, #rooms, #amenities, #contact {
+  background-color: #f2f2f2;
+}
+
+/* Room Section */
+.room {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+</style>
 </head>
 <body>
   <header>
