@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login</title>
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+<a href="home.jsp"> Login </a>
+    h2 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 300px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border: 1px solid #dddddd;
+      border-radius: 4px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #dddddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
   <h2>Login</h2>
-  <form id="loginForm" action="home.html" method="post">
+  <form>
     <div>
       <label for="username">Username:</label>
       <input type="text" id="username" name="username" required>
@@ -18,24 +67,5 @@
       <input type="submit" value="Login">
     </div>
   </form>
-
-  <script>
-    document.getElementById("loginForm").addEventListener("submit", function(event) {
-      event.preventDefault(); // Prevent form submission
-
-      // Perform login credentials validation here
-      var username = document.getElementById("username").value;
-      var password = document.getElementById("password").value;
-
-      // Example validation - check if username is "admin" and password is "password"
-      if (username === "admin" && password === "password") {
-        // Redirect to the home page upon successful login
-        window.location.href = "home.html";
-      } else {
-        // Show error message or perform other actions for failed login
-        alert("Invalid username or password. Please try again.");
-      }
-    });
-  </script>
 </body>
 </html>
