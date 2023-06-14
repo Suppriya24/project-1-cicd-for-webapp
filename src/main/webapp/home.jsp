@@ -85,7 +85,7 @@ section {
   <section id="menu">
     <h2>Our Menu</h2>
     <div class="menu-item">
-      <img src="https://media1.popsugar-assets.com/files/thumbor/oYivacUQxsjybVn80tgpJo2bahw/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/06/10/017/n/1922398/bc378e5c_shutterstock_93720934.jpg" alt="Pizza">
+      <img src="https://media1.popsugar-assets.com/files/thumbor/oYivacUQxsjybVn80tgpJo2bahw/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/06/10/017/n/1922398/bc378e5c_shutterstock_93720934.jpg" alt="Pizza" width="231" height="131">
       <h3>Pizza</h3>
       <p>Delicious and cheesy pizza with a variety of toppings.</p>
     </div>
